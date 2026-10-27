@@ -1,0 +1,45 @@
+# ---- Android / Gradle ----
+.gradle/
+build/
+app/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# ---- IDE ----
+.idea/
+*.iml
+.DS_Store
+
+# ---- Signing keys ----
+*.keystore
+*.jks
+keystore.properties
+
+# ---- PC receiver build artifacts ----
+dist/
+pc-receiver-src/libs/
+pc-receiver-src/go-exe/index.html
+pc-receiver-src/go-exe/*.exe
+pc-receiver-src/go-exe/码传电脑接收端*
+
+# ---- Legacy (old websocket server, incompatible with current app) ----
+server/
+
+# ---- Local build helper (machine specific) ----
+/build.sh
+
+# ---- Secrets (just in case) ----
+.gh_token
+token.txt
+*.token
+
+# ---- misc ----
+*.log
+node_modules/
